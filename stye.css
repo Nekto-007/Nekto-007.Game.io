@@ -16,7 +16,8 @@
 
 body{
     background-image: url(./img/fon.jpg);
-    background-size: cover;
+    background-size: 100% cover;
+    background-repeat: no-repeat;
 
 }
 
@@ -83,8 +84,8 @@ transition: 0.2;
 
 }
 .card{
-    width: 160px;
-    height: 270px;
+    width: 200px;
+    height: 300px;
     border-radius: 10px;
     background-size: cover;
     background-position:center;
